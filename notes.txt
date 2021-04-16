@@ -1,8 +1,0 @@
-# init
-docker run --rm -v "$PWD:/book" -p 127.0.0.1:4000:4000 gitbook gitbook init
-# serve
-docker run --rm -v "$PWD:/book" -p 127.0.0.1:4000:4000 gitbook gitbook serve
-# build
-docker run --rm -v "$PWD:/book" -p 127.0.0.1:4000:4000 gitbook gitbook build
-# pdf
-docker run --rm -v "$PWD:/book" -p 127.0.0.1:4000:4000 gitbook gitbook pdf .

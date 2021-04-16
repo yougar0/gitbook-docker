@@ -6,6 +6,15 @@ https://zhuanlan.zhihu.com/p/343053359
 
 ## 使用方法
 
+### 构建镜像
+
+```bash
+git clone https://github.com/yougar0/gitbook-docker.git
+cd gitbook-docker
+docker build -t gitbook .
+```
+
+### 命令
 
 ```bash
 # init
